@@ -1,12 +1,12 @@
 // ASSTES
-import { avatar } from '../../assets/index'
+import { loader } from '../../assets/index'
 
 export function Banner() {
   return (
     <section className=" h-full flex justify-center items-center px-[2rem] lg:mt-[8rem]">
       <div className="flex flex-col justify-center gap-[2rem] items-center w-full max-w-[1024px] mx-auto lg:justify-between lg:flex-row mt-[10rem] lg:mt-0  ">
         <div className="w-full max-w-[412px]  flex justify-start items-end">
-          <img src={avatar} alt="Avatar" className="w-full max-w-[320px]" />
+          <img src={loader} alt="Avatar" className="w-full max-w-[320px]" />
         </div>
         <div className="w-full max-w-[612px] flex flex-col justify-center items-center lg:justify-start lg:items-start gap-0">
           <h4 className="text-primaryColor font-semibold text-[1.5rem] text-center lg:text-left">
